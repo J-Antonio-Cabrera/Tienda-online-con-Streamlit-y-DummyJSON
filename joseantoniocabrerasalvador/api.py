@@ -37,7 +37,7 @@ def obtener_historial():
     return dolar
 
 
-# Estructura del maestro adaptada al dólar
+# Estructura entponit dólar
 @app.get("/dolar/{fecha}")
 def consultar_fecha(fecha: str):
     dolar = data_dolar()["data"]
